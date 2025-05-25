@@ -14,10 +14,7 @@
   --gld: rgba(249, 188, 4, 0.5);
   --mari: rgba(243, 227, 83, 0.893);
   --brn: rgba(150, 83, 10, 0.994);
-  --bgnd: rgba(240, 288, 148, 0.5);
-}
-.wrapper {
-  background-color: var(--bgnd);
+  --bnd: rgba(240, 288, 124, 0.5);
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
