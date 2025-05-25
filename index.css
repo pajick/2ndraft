@@ -1,0 +1,8 @@
+@import "base.css";
+.wrapper {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
