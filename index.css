@@ -1,8 +1,33 @@
 @import "base.css";
 .wrapper {
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: auto;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background-color: var(--bnd);
+}
+
+header h1 {
+  background-color: var(--lgn);
+  color: var(--grn);
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: clamp(2dvw, 12dvw, 17dvw);
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  margin-inline: auto;
+  padding: 0 10%;
+  border-radius: 5ch;
+  border: 0.2rem solid var(--grn);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+}
+h2 {
+  color: var(--grn);
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: clamp(4dvw, 2.5dvw, 1dvw);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0 10%;
+  text-wrap: balance;
 }
