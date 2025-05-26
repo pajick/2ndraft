@@ -8,8 +8,7 @@ body {
   grid-template-columns: auto;
   align-items: center;
   justify-content: center;
-  height: fit-content;
-
+  height: 100vh;
   margin: auto;
   padding: 2ch;
 }
@@ -19,7 +18,7 @@ header h1 {
   color: var(--grn);
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  font-size: clamp(2dvw, 12dvw, 17dvw);
+  font-size: clamp(2dvw, 10dvw, 12dvw);
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
   margin-inline: auto;
   padding: 0 10%;
@@ -50,7 +49,7 @@ a {
   background-color: var(--grn);
   color: var(--lgn);
   font-family: "Times New Roman", Times, serif;
-  font-size: clamp(3dvw, 2.5dvw, 2dvw);
+  font-size: clamp(2dvw, 1.5dvw, 1dvw);
   font-weight: 700;
   padding: 0.25rem 1rem;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
