@@ -6,6 +6,8 @@
   justify-content: center;
   height: 100vh;
   background-color: var(--bnd);
+  margin: auto;
+  padding: 2ch;
 }
 
 header h1 {
@@ -30,4 +32,38 @@ h2 {
   margin-bottom: 1rem;
   padding: 0 10%;
   text-wrap: balance;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  margin-top: 1rem;
+  background-color: var(--grn);
+  color: var(--lgn);
+  font-family: "Times New Roman", Times, serif;
+  font-size: clamp(3dvw, 2.5dvw, 2dvw);
+  font-weight: 700;
+  padding: 0.25rem 1rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+}
+a:hover {
+  background-color: var(--lgn);
+  color: var(--grn);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+footer {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: clamp(1.5dvw, 1dvw, 0.5dvw);
+  color: var(--grn);
+  margin-inline: auto;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-top: 1px solid var(--grn);
 }
