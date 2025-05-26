@@ -1,0 +1,22 @@
+@import "base.css";
+@import "index.css";
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2ch;
+  color: var(--dkrd);
+}
+.dropdown {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1ch;
+}
+a {
+  background-color: var(--dkrd);
+  color: var(--yel);
+  border-radius: 0;
+  border: 1px solid var(--yel);
+  padding: 0.5rem 1rem;
+}
