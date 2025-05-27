@@ -9,7 +9,7 @@
   border: 1px solid black;
   background-color: var(--gry);
   color: black;
-  width: 40%;
+  width: 45%;
   margin-inline: auto;
   border: 0.2rem solid rgba(0, 0, 0, 0.214);
   border-radius: 1.5rem 1.5rem 0 0;
@@ -22,5 +22,17 @@
   color: black;
   height: fit-content;
   border-radius: 1.5rem;
+  outline-offset: 12px solid rgba(0, 0, 0, 0.214);
+  outline: 0.4rem solid rgba(0, 0, 0, 0.214);
   padding: 2ch;
+  margin: 5ch 0;
+}
+.tombs {
+  text-decoration: underline;
+  font-family: "cloister black", serif;
+  font-size: clamp(6dvw, 1dvw, 1.5dvw);
+  color: black;
+  justify-content: center;
+  align-items: center;
+  gap: 2ch;
 }
