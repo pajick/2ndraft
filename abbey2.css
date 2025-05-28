@@ -68,19 +68,16 @@
   box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px, rgba(0, 0, 0, 0.22) 0px 6px 6px;
 }
 .big {
-  /* background-color: var(--dkrd); */
-  color: var(--dkrd);
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-
+  color: var(--wht);
   width: fit-content;
   max-width: 100px;
   font-size: clamp(2.5dvw, 3ch, 4dvw);
   padding: 0 3ch;
   border-radius: 10%;
-  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px, rgba(0, 0, 0, 0.22) 0px 6px 6px; */
   margin-top: 1ch;
 }
