@@ -5,10 +5,12 @@ body {
 .wrapper {
   max-width: 80%;
   display: grid;
-  grid-template-columns: auto;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
+  min-height: 100dvh;
   margin: auto;
   padding: 2ch;
 }
