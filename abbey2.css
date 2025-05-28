@@ -73,10 +73,11 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  color: var(--wht);
+  color: var(--dkrd);
   width: fit-content;
   max-width: 100px;
   font-size: clamp(2.5dvw, 3ch, 4dvw);
+  font-weight: 700;
   padding: 0 3ch;
   border-radius: 10%;
   margin-top: 1ch;
