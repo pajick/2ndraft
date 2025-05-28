@@ -48,11 +48,13 @@
 .headstones {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  flex-wrap: wrap;
   gap: 2ch;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+
   text-align: center;
+  margin: auto;
+  padding: 2ch;
 }
 .card {
   display: flex;
