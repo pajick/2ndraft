@@ -3,7 +3,7 @@ body {
   background-color: var(--bnd);
 }
 .wrapper {
-  max-width: 80%;
+  max-width: 50%;
   display: grid;
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 1fr;
