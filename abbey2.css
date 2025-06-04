@@ -97,3 +97,13 @@
     margin: auto;
   }
 }
+a {
+  background-color: black;
+  color: var(--lgn);
+  text-align: center;
+}
+a:hover {
+  background-color: var(--gry);
+  color: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
