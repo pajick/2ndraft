@@ -47,8 +47,8 @@
 }
 
 .headstones {
-  display: grid;
-  grid-template-columns: minmax(max-content, 100px) repeat(auto-fill, 100px);
+  display: flex;
+  flex-wrap: wrap;
   grid-template-rows: auto;
   gap: 1ch;
   justify-content: space-evenly;
