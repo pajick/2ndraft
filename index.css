@@ -20,7 +20,7 @@ header h1 {
   color: var(--grn);
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  font-size: clamp(2dvw, 10dvw, 12dvw);
+  font-size: clamp(2dvw, 5dvw, 7dvw);
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
   margin-inline: auto;
   padding: 0 10%;
@@ -32,7 +32,7 @@ h2 {
   color: var(--grn);
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  font-size: clamp(4dvw, 2.5dvw, 1dvw);
+  font-size: clamp(3dvw, 2.5dvw, 1dvw);
   margin-top: 1rem;
   margin-bottom: 1rem;
   padding: 0 10%;
