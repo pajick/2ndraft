@@ -63,24 +63,24 @@
 
 .big {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   color: var(--dkrd);
-  width: fit-content;
+  /* width: fit-content; */
   max-width: 100px;
   font-size: clamp(2.5dvw, 3ch, 4dvw);
   font-weight: 700;
   padding: 0 3ch;
   border-radius: 10%;
   margin-top: 1ch;
+  margin: auto;
 }
 .headstones {
   container-type: inline-size;
   container-name: headstones;
 }
-@container (width < 1880px) {
+@container (width < 1280px) {
   .card {
     display: flex;
     flex-direction: column;
@@ -88,13 +88,12 @@
     width: fit-content;
     min-width: 100px;
     padding: 1ch;
-    /* margin-inline: 2ch; */
     border-radius: 1.5rem;
     background-color: var(--gry);
     box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px,
       rgba(0, 0, 0, 0.22) 0px 6px 6px;
     align-items: center;
     justify-content: center;
-    /* gap: 1ch; */
+    margin: auto;
   }
 }
