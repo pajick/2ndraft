@@ -77,7 +77,7 @@
   container-type: inline-size;
   container-name: headstones;
 }
-@container (width < 1280px) {
+@container (width < 1880px) {
   .card {
     display: flex;
     flex-direction: column;
