@@ -101,9 +101,11 @@ a {
   background-color: black;
   color: var(--lgn);
   text-align: center;
+  border-radius: 0;
 }
 a:hover {
   background-color: var(--gry);
   color: black;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  border-radius: 0;
 }
