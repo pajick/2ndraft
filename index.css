@@ -32,7 +32,7 @@ h2 {
   color: var(--grn);
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  font-size: clamp(3dvw, 2.5dvw, 1dvw);
+  font-size: clamp(1.5dvw, 2.5dvw, 3dvw);
   margin-top: 1rem;
   margin-bottom: 1rem;
   padding: 0 10%;
