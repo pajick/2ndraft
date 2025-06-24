@@ -20,11 +20,11 @@ header h1 {
   color: var(--grn);
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  font-size: clamp(2dvw, 3dvw, 4dvw);
+  font-size: clamp(5dvh, 10dvh, 12dvh);
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
   margin-inline: auto;
-  margin-top: 5dvh;
-  padding: 0 10%;
+  margin-top: 9dvh;
+  padding: 0.5rem 1rem;
   border-radius: 5ch;
   border: 0.2rem solid var(--grn);
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
@@ -48,11 +48,11 @@ main {
 }
 a {
   text-decoration: none;
-  margin-top: 1rem;
+  margin-top: 5rem;
   background-color: var(--grn);
   color: var(--lgn);
   font-family: "Times New Roman", Times, serif;
-  font-size: clamp(2dvw, 1.5dvw, 1dvw);
+  font-size: clamp(2dvh, 1.5dvh, 1dvh);
   font-weight: 700;
   padding: 0.25rem 1rem;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
@@ -66,7 +66,7 @@ a:hover {
 footer {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  font-size: clamp(1.5dvw, 1dvw, 0.5dvw);
+  font-size: clamp(1.5dvh, 1dvh, 0.5dvh);
   color: var(--grn);
   margin-inline: auto;
   margin-top: 2rem;
