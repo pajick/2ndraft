@@ -20,7 +20,7 @@ header h1 {
   color: var(--grn);
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  font-size: clamp(2dvw, 5dvw, 7dvw);
+  font-size: clamp(2dvw, 3dvw, 4dvw);
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
   margin-inline: auto;
   padding: 0 10%;
