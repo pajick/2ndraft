@@ -23,6 +23,7 @@ header h1 {
   font-size: clamp(2dvw, 3dvw, 4dvw);
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
   margin-inline: auto;
+  margin-top: 5dvh;
   padding: 0 10%;
   border-radius: 5ch;
   border: 0.2rem solid var(--grn);
