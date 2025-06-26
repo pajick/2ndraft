@@ -30,14 +30,14 @@
 }
 .tombs {
   display: flex;
-  flex-wrap: wrap;
-  text-decoration: underline;
+  flex-direction: column;
+  text-decoration: none;
   font-family: "cloister black", serif;
-  font-size: clamp(4dvw, 5dvw, 8dvw);
+  font-size: clamp(2rem, 5vw, 10vw);
   color: black;
   justify-content: center;
   align-items: center;
-  gap: 2ch;
+  gap: 1ch;
 }
 .other {
   display: flex;
