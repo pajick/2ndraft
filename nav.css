@@ -22,4 +22,8 @@ a {
   border-radius: 0;
   border: 1px solid var(--yel);
   padding: 0.5rem 1rem;
+  margin: 1ch;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  transition: color 0.5s 0.3s;
 }
