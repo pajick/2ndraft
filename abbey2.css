@@ -107,5 +107,14 @@ a:hover {
   background-color: var(--gry);
   color: black;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-  border-radius: 0;
+}
+
+.other {
+  font-size: clamp(1dvw, 1.5dvw, dvw);
+  text-align: center;
+  margin: 1ch;
+
+  padding: 0.5ch;
+  color: black;
+  font-weight: 700;
 }
