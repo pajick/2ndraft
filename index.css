@@ -38,7 +38,7 @@ h2 {
   margin-top: 1rem;
   margin-bottom: 1rem;
   padding: 0 10%;
-  text-wrap: balance;
+  word-break: break-all;
 }
 main {
   display: flex;
