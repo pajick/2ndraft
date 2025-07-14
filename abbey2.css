@@ -39,15 +39,6 @@
   align-items: center;
   gap: 1ch;
 }
-.other {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: clamp(2.5dvw, 3dvw, 4.5dvw);
-  text-wrap: balance;
-  text-align: center;
-  margin: 2ch;
-}
 
 .headstones {
   display: flex;
@@ -110,10 +101,17 @@ a:hover {
 }
 
 .other {
-  font-size: clamp(1dvw, 1.5dvw, dvw);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  word-break: break-word;
+  text-align: center;
+  margin: 2ch;
+  font-size: clamp(1dvw, 1.5dvw, 2dvw);
   text-align: center;
   margin: 1ch;
-
   padding: 0.5ch;
   color: black;
   font-weight: 700;
