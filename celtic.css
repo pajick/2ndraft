@@ -1,0 +1,73 @@
+@import "index.css";
+/* 
+ */
+sub,
+.sub,
+.ack {
+  font-size: x-small;
+  color: rgba(181, 6, 0, 0.92);
+}
+body {
+  background-color: rgba(240, 228, 148, 0.5);
+  width: 100%;
+  margin: auto;
+}
+header {
+  margin-top: 100px;
+}
+.wrapper {
+  padding: 2ch 0;
+}
+h1 {
+  font-size: 5rem;
+  text-shadow: rgb(113, 113, 62) 3px 2px 3px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 1ch;
+  text-align: center;
+  border-radius: 10px;
+  border: 0.05ch solid black;
+  padding: 0.1ch;
+  background-color: var(--lgn);
+  color: var(--grn);
+  box-shadow: rgb(172, 170, 170) 0.1ch 0.1ch 0.6ch;
+}
+h3 {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  margin: auto;
+  margin-top: 2ch;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgb(150, 149, 149) 0.2ch 0.25ch 0.4ch;
+  padding: 0.5ch;
+  background-color: var(--grn);
+  color: var(--plyl);
+}
+main {
+  width: 50%;
+  text-align: left;
+  padding: 3ch 0;
+  margin-top: auto;
+  margin: auto;
+}
+pre {
+  background-color: rgba(180, 176, 176, 0.6);
+  text-align: center;
+  padding: 2ch;
+  border: 0.5ch solid rgb(132, 132, 132);
+  border-radius: 1ch;
+  box-shadow: rgba(185, 184, 184, 0.921) 0.5ch 0.5ch 0.5ch;
+  margin-block: 1rem;
+  margin: auto;
+  width: 250px;
+}
+p::first-letter {
+  font-weight: 600;
+  font-size: 3ch;
+}
+.bottom {
+  margin: 2ch 0;
+}
