@@ -1,4 +1,12 @@
 @import "index.css";
+h2 {
+  font-family: "arial", serif;
+  font-size: clamp(1dvw, 3dvw, 4dvw);
+  word-break: keep-all;
+  color: var(--grn);
+  text-align: center;
+  margin: 1ch;
+}
 .cite {
   display: flex;
   flex-wrap: wrap;
@@ -30,10 +38,11 @@
 }
 .tombs {
   display: flex;
+  flex-wrap: nowrap;
   flex-direction: column;
   text-decoration: none;
   font-family: "cloister black", serif;
-  font-size: clamp(2rem, 5vw, 10vw);
+  font-size: clamp(2vw, 5vw, 10vw);
   color: black;
   justify-content: center;
   align-items: center;
