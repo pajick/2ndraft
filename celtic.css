@@ -1,6 +1,4 @@
 @import "index.css";
-/* 
- */
 sub,
 .sub,
 .ack {
@@ -13,43 +11,17 @@ body {
   margin: auto;
 }
 header {
-  margin-top: 100px;
+  margin-top: 0px;
 }
 .wrapper {
   padding: 2ch 0;
 }
-h1 {
-  font-size: 5rem;
-  text-shadow: rgb(113, 113, 62) 3px 2px 3px;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bold;
-  margin: auto;
-  margin-top: 1ch;
-  text-align: center;
-  border-radius: 10px;
-  border: 0.05ch solid black;
-  padding: 0.1ch;
-  background-color: var(--lgn);
-  color: var(--grn);
-  box-shadow: rgb(172, 170, 170) 0.1ch 0.1ch 0.6ch;
-}
-h3 {
-  font-size: 1rem;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  margin: auto;
-  margin-top: 2ch;
-  text-align: center;
-  border-radius: 10px;
-  box-shadow: rgb(150, 149, 149) 0.2ch 0.25ch 0.4ch;
-  padding: 0.5ch;
-  background-color: var(--grn);
-  color: var(--plyl);
-}
 main {
-  width: 50%;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
   text-align: left;
-  padding: 3ch 0;
+  padding: 0 0;
   margin-top: auto;
   margin: auto;
 }
@@ -70,4 +42,19 @@ p::first-letter {
 }
 .bottom {
   margin: 2ch 0;
+}
+
+a {
+  position: relative;
+  top: -80px;
+  left: -200px;
+  background-color: black;
+  color: var(--lgn);
+  text-align: center;
+  border-radius: 0;
+}
+a:hover {
+  background-color: var(--gry);
+  color: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
