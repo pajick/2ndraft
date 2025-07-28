@@ -58,3 +58,13 @@ a:hover {
   color: black;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
+
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  margin-top: -10cqh;
+}
