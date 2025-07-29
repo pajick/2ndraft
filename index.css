@@ -3,7 +3,7 @@ body {
   background-color: var(--bnd);
 }
 .wrapper {
-  max-width: 50%;
+  max-width: 75rch;
   display: grid;
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 1fr;
@@ -67,7 +67,7 @@ a:hover {
 footer {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  font-size: clamp(1.5dvh, 1dvh, 0.5dvh);
+  font-size: clamp(1.3dvh, 1dvh, 1.5dvh);
   color: var(--grn);
   margin-inline: auto;
   margin-top: 2rem;
