@@ -1,0 +1,99 @@
+@import "index.css";
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 75ch;
+  margin: auto;
+}
+h1 {
+  max-width: 90%;
+  margin: auto;
+  color: rgba(0, 0, 0, 0.604);
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Manorly", sans-serif;
+}
+h3 {
+  font-size: 3rem;
+  font-family: "Manorly", sans-serif;
+  color: rgb(80, 25, 5);
+  margin-top: 0;
+  margin-bottom: 1rch;
+  text-align: center;
+}
+h4 {
+  margin-top: 2ch;
+  margin-bottom: 0.5ch;
+  font: 1em sans-serif;
+}
+
+.ack {
+  font-size: 0.6rem;
+  padding-bottom: 2rem;
+  margin: auto;
+  color: #710a0a;
+}
+
+sup {
+  color: red;
+  font-size: xx-small;
+}
+a {
+  text-decoration: none;
+  color: rgb(215, 215, 7);
+}
+img {
+  height: auto;
+  width: 300px;
+  padding: 20px 0 20px 0;
+}
+
+@media only screen and (min-width: 599px) {
+  .chevsmall {
+    display: none;
+  }
+  .main {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "chev col1"
+      "chevtxt col2";
+  }
+}
+.main {
+  padding: 2rem;
+}
+
+.chev > img {
+  text-align: center;
+  background-color: lightgray;
+  background-size: 500px;
+}
+.col1 {
+  padding-top: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+  .chev {
+    text-align: center;
+    background-color: whitesmoke;
+  }
+  .chev {
+    display: none;
+  }
+
+  .chevsmall {
+    display: grid;
+    gap: 10%;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "chevsmall"
+      "chevtxt"
+      "col1"
+      "col2";
+  }
+}
