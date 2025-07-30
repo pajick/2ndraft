@@ -65,3 +65,13 @@ a:hover {
   margin: auto;
   margin-top: -10cqh;
 }
+footer {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: clamp(1.3dvh, 1dvh, 1.5dvh);
+  color: var(--grn);
+  margin: auto;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-top: 1px solid var(--grn);
+}
