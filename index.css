@@ -34,7 +34,7 @@ h2 {
   color: var(--grn);
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: clamp(2dvw, 3dvw, 4dvw);
+  font-size: clamp(2qch, 3qch, 4qch);
   margin-top: 1rem;
   margin-bottom: 1rem;
   padding: 0 10%;
