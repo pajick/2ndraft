@@ -1,0 +1,27 @@
+@import "index.css";
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  gap: 1rem;
+}
+.question,
+.answer {
+  font-size: 1.01rem;
+  color: var(--blk);
+  padding: 10px;
+}
+
+.name1,
+.name2 {
+  font-size: 1rem;
+  color: var(--blk);
+  padding: 4px;
+  text-align: justify;
+  text-decoration: underline;
+}
+.jes {
+  font-size: clamp(1rem, 2vw, 3rem);
+}
