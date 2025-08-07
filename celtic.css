@@ -43,13 +43,15 @@ p::first-letter {
 }
 
 a {
-  position: relative;
-  top: -80px;
-  left: -200px;
+  /* position: relative;
+  top: -100px;
+  left: -120px; */
   background-color: black;
-  color: var(--lgn);
+  color: var(--wht);
   text-align: center;
-  border-radius: 0;
+  border-radius: 3px;
+  width: fit-content;
+  padding: 10px;
 }
 a:hover {
   background-color: var(--gry);
