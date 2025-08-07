@@ -10,6 +10,7 @@ section {
 .question,
 .answer {
   font-size: 1.01rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: var(--blk);
   padding: 10px;
 }
