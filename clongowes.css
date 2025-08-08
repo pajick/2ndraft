@@ -1,0 +1,13 @@
+@import "index.css";
+h3 {
+  color: var(--blk);
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Times New Roman", Times, serif;
+  font-size: clamp(3rch, 4rch, 5rch);
+  font-weight: 700;
+  margin-top: 0.5rem;
+  margin-bottom: 0.1rem;
+  word-break: keep-all;
+  padding-bottom: 2rch;
+}

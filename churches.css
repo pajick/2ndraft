@@ -21,7 +21,6 @@ header h1 {
 }
 .header h3 {
   text-align: center;
-  padding-left: 2ch;
   font-family: "cloister black", serif;
   font-size: clamp(4dvw, 6dvw, 8dvw);
   color: var(--blk);

@@ -3,7 +3,7 @@ body {
   background-color: var(--bnd);
 }
 .wrapper {
-  max-width: 75rch;
+  max-width: 80rch;
   display: grid;
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 1fr;
@@ -16,6 +16,7 @@ body {
 }
 
 header h1 {
+  max-width: 80rch;
   background-color: var(--lgn);
   color: var(--grn);
   text-align: center;
