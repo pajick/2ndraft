@@ -1,11 +1,48 @@
 @import "index.css";
+.wrapper {
+  width: 90rch;
+}
 h3 {
-  color: var(--grn);
+  color: var(--dkrd);
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: clamp(3rch, 4rch, 5rch);
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
   padding: 0 10%;
   word-break: keep-all;
+}
+.one,
+.two,
+.three {
+  font-size: clamp(1rch, 2.5rch, 4rch);
+  line-height: 1.5;
+  padding: 0 1%;
+  margin-bottom: 1rem;
+  color: var(--blk);
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+}
+img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: block;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid var(--dkrd);
+  border-radius: 10px;
+}
+figcaption {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--dkrd);
+  margin-top: 0.5rem;
+  padding: 2% 10%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+figcaption::before {
+  content: "Image: ";
+  font-weight: bold;
+  color: var(--dkrd);
 }
