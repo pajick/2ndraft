@@ -1,0 +1,60 @@
+@import "index.css";
+h3 {
+  color: var(--dkrd);
+  text-align: center;
+  font-family: "pr celtic", sans-serif;
+  font-size: clamp(5rch, 6rch, 7rch);
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  padding: 0 5%;
+  word-break: keep-all;
+}
+.list {
+  font-weight: bold;
+  padding: 2ch;
+}
+.first::first-letter,
+.second::first-letter {
+  font-size: 1.5rem;
+  font-family: "caligraphic" sans-serif;
+  font-weight: bold;
+  color: var(--dkrd);
+  text-indent: 1em;
+}
+.first {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-indent: 1em;
+  font-size: clamp(2rch, 2rch, 3rch);
+  line-height: 1.5;
+}
+a {
+  color: var(--wht);
+
+  text-decoration: none;
+}
+.bdy {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1rch;
+  font-family: Times, serif, sans-serif;
+  color: var(--wht);
+}
+#hill {
+  font-weight: bold;
+  font-family: "pr celtic", sans-serif;
+  font-size: 1.5rem;
+  color: var(--dkrd);
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  padding-left: 2ch;
+}
+.second {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: clamp(2rch, 2rch, 3rch);
+  line-height: 1.5;
+  padding-left: 2ch;
+}
+.second::first-letter {
+}
