@@ -3,20 +3,19 @@ body {
   background-color: var(--bnd);
 }
 .wrapper {
-  max-width: 80rch;
+  max-width: 100rch;
   display: grid;
-  grid-template-rows: auto 1fr auto;
-  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
   align-items: center;
   justify-content: center;
+  margin: auto;
+  padding: 1ch;
   min-height: 100vh;
   min-height: 100dvh;
-  margin: auto;
-  padding: 2ch;
 }
 
 header h1 {
-  max-width: 80rch;
   background-color: var(--lgn);
   color: var(--grn);
   text-align: center;
@@ -50,7 +49,7 @@ main {
 }
 a {
   text-decoration: none;
-  margin-top: 5rem;
+  margin-top: 1rem;
   background-color: var(--grn);
   color: var(--lgn);
   font-family: "Times New Roman", Times, serif;
