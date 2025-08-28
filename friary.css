@@ -1,0 +1,44 @@
+@import "index.css";
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 90rch;
+  margin: auto;
+}
+h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 5rch;
+  color: var(--dkrd);
+  margin-bottom: 2rch;
+  margin-top: 3rch;
+  border: var(--gry) solid 0.4rch;
+  border-top: var(--gry) solid 1rch;
+  border-radius: 15px;
+  border-bottom: 0;
+  padding: 0.8rch;
+  text-align: center;
+}
+h4 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rch;
+  color: var(--dkrd);
+  margin-bottom: 1rch;
+  margin-top: 0.1rch;
+  border-bottom: var(--gry) solid 0.1rch;
+  border-radius: 10px;
+  padding: 1rch;
+}
+em {
+  font-style: italic;
+}
+.sm {
+  font-size: 1.5rch;
+}
+img {
+  max-width: 60rch;
+  display: block;
+  margin: auto;
+  border: var(--gry) solid 1rch;
+}
