@@ -1,1 +1,58 @@
-@import "index.html";
+@import "index.css";
+main {
+  width: 90rch;
+  margin: auto;
+}
+h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 4rch;
+  color: var(--dkrd);
+  margin-bottom: 2rch;
+  margin-top: 3rch;
+  border: var(--dkrd) solid 0.5rch;
+  padding: 0.5rch;
+}
+.excerpts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rch;
+}
+.excerpt {
+  border: var(--dkrd) solid 0.1rch;
+  padding: 1rch;
+  font-size: 2rch;
+  background-color: var(--ltgy);
+  justify-content: center;
+  align-items: center;
+}
+.rents {
+  font-size: 2.5rch;
+  margin-top: 3rch;
+  margin-bottom: 3rch;
+}
+table {
+  width: 80rch;
+  border-collapse: collapse;
+  margin-bottom: 2rch;
+  margin-top: 2rch;
+}
+th {
+  font-weight: 700;
+  text-align: left;
+  border-bottom: var(--dkrd) solid 0.2rch;
+}
+em {
+  font-style: italic;
+}
+
+.surnames {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  column-gap: 3rch;
+  row-gap: 1rch;
+  font-size: 2.5rch;
+  margin-top: 2rch;
+  justify-self: center;
+  align-items: center;
+}
