@@ -27,12 +27,15 @@ pre {
   background-color: rgba(180, 176, 176, 0.6);
   text-align: center;
   padding: 2ch;
-  border: 0.5ch solid rgb(132, 132, 132);
+  border: 0.5ch solid rgb(94, 94, 94);
   border-radius: 1ch;
-  box-shadow: rgba(185, 184, 184, 0.921) 0.5ch 0.5ch 0.5ch;
+  box-shadow: rgba(132, 132, 132, 0.921) 0.5ch 0.5ch 0.5ch;
   margin-block: 1rem;
   margin: auto;
-  width: 250px;
+  max-width: 40rch;
+  font-family:  serif;
+  font-size: 1.5ch;
+  line-height: 3rch;
 }
 p::first-letter {
   font-weight: 600;
@@ -43,9 +46,6 @@ p::first-letter {
 }
 
 a {
-  /* position: relative;
-  top: -100px;
-  left: -120px; */
   background-color: black;
   color: var(--wht);
   text-align: center;
@@ -59,21 +59,8 @@ a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
 
-.sub-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-  margin-top: -10cqh;
+code {
+  background-color: rgba(180, 176, 176, 0.6);
+  padding: 0.2ch 0.5ch;
+  border-radius: 3px;
 }
-/* footer {
-  text-align: right;
-  font-family: "Times New Roman", Times, serif;
-  font-size: clamp(1.3dvh, 1dvh, 1.5dvh);
-  color: var(--grn);
-  margin: auto;
-  margin-top: 2rem;
-  padding: 1rem;
-  border-top: 1px solid var(--grn);
-} */
