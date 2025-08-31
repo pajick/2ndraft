@@ -159,6 +159,7 @@ table {
 body {
   background-color: white;
   margin: 0;
+  width: 100vw;
 }
 p {
   max-width: 80ch;
