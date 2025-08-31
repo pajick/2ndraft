@@ -2,7 +2,6 @@
 
 .nav {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 1ch;
@@ -12,15 +11,26 @@
   text-decoration: underline;
 }
 .dropdown {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1ch;
+  display: grid;
+  grid-template-columns: 100%;
+  min-width: 100%;
+  position: relative;
+  align-items: center;
+  justify-content: left;
+  padding: 1ch;
+  margin: auto;
+  font-size: clamp(2dvw, 3dvw, 5dvw);
+  font-weight: 700;
+  text-decoration: underline;
+  background-color: var(--gry);
+  border: 1px solid var(--dkrd);
+  border-radius: 1ch;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 a {
   background-color: var(--dkrd);
   color: var(--yel);
-  border-radius: 0;
-  border: 1px solid var(--yel);
+  border-radius: 0.5ch;
   padding: 0.5rem 1rem;
   margin: 1ch;
   font-family: "Times New Roman", Times, serif;
