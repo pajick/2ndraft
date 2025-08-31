@@ -4,9 +4,8 @@
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  margin: auto;
-  margin: 2.5rch;
-  padding: 1.5rch;
+  margin: 2.5rem;
+  padding: 1.5rem;
   border: 1px solid black;
   background-color: var(--gry);
   color: black;
@@ -15,7 +14,6 @@
   border: 0.2rem solid rgba(0, 0, 0, 0.214);
   border-radius: 0.5rem 0.5rem 0 0;
   box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.586);
-  font-size: clamp(1rch, 2rch, 3rch);
   font-weight: 700;
 }
 .tomb {
@@ -23,7 +21,7 @@
   color: black;
   height: fit-content;
   border-radius: 1.5rem;
-  outline-offset: 12px solid rgba(0, 0, 0, 0.214);
+  outline-offset: 12px;
   outline: 0.4rem solid rgba(0, 0, 0, 0.214);
   padding: 2ch;
   margin: 5ch 0;
@@ -62,17 +60,18 @@
   color: var(--dkrd);
   /* width: fit-content; */
   max-width: 100px;
-  font-size: clamp(2dvw, 3ch, 4dvw);
+  font-size: clamp(2vw, 3vw, 4vw);
   font-weight: 700;
   padding: 0 3ch;
   border-radius: 10%;
   margin-top: 1ch;
   margin: auto;
 }
-.headstones {
-  container-type: inline-size;
-  container-name: headstones;
-}
+/* .headstones {
+  /* container-type: inline-size; */
+/* container-name: headstones; */
+/* Fallback: use regular responsive design or media queries if needed
+}  */
 @container (width < 1280px) {
   .card {
     display: flex;
@@ -112,7 +111,6 @@ a:hover {
   text-align: center;
   margin: 2ch;
   font-size: clamp(1dvw, 1.5dvw, 2dvw);
-  text-align: center;
   margin: 1ch;
   padding: 0.5ch;
   color: black;

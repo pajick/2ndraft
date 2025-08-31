@@ -1,14 +1,4 @@
 @import "index.css";
-.wrapper1 {
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 2.5rch;
-  line-height: 1.5;
-  word-spacing: normal;
-  min-width: 80ch;
-}
 h3 {
   font-family: "cloister black", Arial, sans-serif;
   font-size: 5rch;
@@ -17,16 +7,19 @@ h3 {
 .italic {
   font-style: italic;
   font-size: 2rch;
+  padding-top: 1rch;
   margin-bottom: -6ch;
 }
-.list a {
-  display: inline-block;
+a,
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   text-decoration: none;
   color: var(--dkrd);
   background-color: inherit;
   font-family: Arial, sans-serif;
   font-size: 1.5rch;
-  color: var(--dkrd);
 }
 .first::first-letter {
   font-family: "cloister black", Arial, sans-serif;
