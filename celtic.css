@@ -1,13 +1,8 @@
 @import "index.css";
 sub,
-.sub,
-.ack {
+sup {
   font-size: x-small;
   color: rgba(181, 6, 0, 0.92);
-}
-body {
-  width: 100%;
-  margin: auto;
 }
 h1 {
   margin-top: 0px;
@@ -32,8 +27,8 @@ pre {
   box-shadow: rgba(132, 132, 132, 0.921) 0.5ch 0.5ch 0.5ch;
   margin-block: 1rem;
   margin: auto;
-  max-width: 40rch;
-  font-family:  serif;
+  max-width: 40ch;
+  font-family: serif;
   font-size: 1.5ch;
   line-height: 3rch;
 }
@@ -57,10 +52,4 @@ a:hover {
   background-color: var(--gry);
   color: black;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-}
-
-code {
-  background-color: rgba(180, 176, 176, 0.6);
-  padding: 0.2ch 0.5ch;
-  border-radius: 3px;
 }
