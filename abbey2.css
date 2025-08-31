@@ -14,6 +14,7 @@
   border: 0.2rem solid rgba(0, 0, 0, 0.214);
   border-radius: 0.5rem 0.5rem 0 0;
   box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.586);
+  font-size: clamp(1rch, 2rch, 3rch);
   font-weight: 700;
 }
 .tomb {
