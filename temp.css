@@ -1,0 +1,52 @@
+@import "index.css";
+
+.nav {
+  display: grid;
+  grid-auto-rows: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 1ch;
+  color: var(--dkrd);
+  font-size: clamp(1rem, 2rem, 3rem);
+  font-weight: 700;
+  text-decoration: underline;
+}
+.dropdown {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: stretch;
+  font-size: clamp(2ch, 3ch, 5ch);
+  max-width: 60rem;
+  margin: auto;
+  padding: 1rem;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.872),
+    rgba(245, 222, 179, 0.577)
+  );
+  border-radius: 1rem;
+}
+
+a {
+  padding: 0.5ch 0.75ch;
+  border: 1px solid var(--dkrd);
+  font-family: "Times New Roman", Times, serif;
+  padding: 0.5ch 0.75ch;
+  margin: auto;
+}
+.item a {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 400;
+  background-color: var(--lgrn);
+  color: var(--dkgrn);
+  font-size: calc(1rem + 0.5vw);
+}
+a:hover {
+  background-color: var(--dkrd);
+  color: var(--wht);
+  font-weight: 400;
+  text-decoration: underline;
+}
