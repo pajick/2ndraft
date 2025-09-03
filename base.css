@@ -128,9 +128,6 @@ nav,
 section {
   display: block;
 }
-body {
-  line-height: 1;
-}
 ol,
 ul {
   list-style: none;
@@ -160,6 +157,7 @@ body {
   background-color: white;
   margin: 0;
   width: 100vw;
+  line-height: 1;
 }
 p {
   max-width: 80ch;
