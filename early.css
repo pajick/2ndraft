@@ -3,23 +3,23 @@ h3 {
   font-family: "cloister black", Arial, sans-serif;
   font-size: 5rch;
   color: var(--dkrd);
+  margin-bottom: 2ch;
 }
 .italic {
   font-style: italic;
   font-size: 2rch;
-  padding-top: 1rch;
-  margin-bottom: -6ch;
+  padding-top: 2rch;
 }
-a,
-.list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+
+p.list a {
   text-decoration: none;
   color: var(--dkrd);
   background-color: inherit;
   font-family: Arial, sans-serif;
   font-size: 1.5rch;
+  width: fit-content;
+  margin: auto;
+  margin-top: 6ch;
 }
 .first::first-letter {
   font-family: "cloister black", Arial, sans-serif;

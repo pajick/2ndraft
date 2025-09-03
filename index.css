@@ -52,8 +52,8 @@ main {
 a {
   text-decoration: none;
   margin-top: 5rem;
-  background-color: var(--grn);
-  color: var(--lgn);
+  background-color: var(--blk);
+  color: var(--wht);
   font-family: "Times New Roman", Times, serif;
   font-size: clamp(2dvh, 1.5dvh, 1dvh);
   font-weight: 700;

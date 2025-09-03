@@ -30,21 +30,23 @@
 }
 .tombs {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   flex-direction: column;
   text-decoration: none;
-  font-family: "cloister black", serif;
-  font-size: clamp(1rem, 3rem, 4rem);
+  font-family: "Cloister Black", serif;
+  font-size: clamp(1.5rem, 2.5rem, 3rem);
   color: black;
   justify-content: center;
   align-items: center;
+  max-width: 100%;
+  gap: 1rem;
   gap: 1ch;
+  margin: auto;
 }
 
 .headstones {
   display: flex;
   flex-wrap: wrap;
-  grid-template-rows: auto;
   gap: 1ch;
   justify-content: space-evenly;
   align-items: center;
@@ -67,39 +69,6 @@
   border-radius: 10%;
   margin-top: 1ch;
   margin: auto;
-}
-/* .headstones {
-  /* container-type: inline-size; */
-/* container-name: headstones; */
-/* Fallback: use regular responsive design or media queries if needed
-}  */
-@container (width < 1280px) {
-  .card {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: fit-content;
-    min-width: 100px;
-    padding: 1ch;
-    border-radius: 1.5rem;
-    background-color: var(--gry);
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px,
-      rgba(0, 0, 0, 0.22) 0px 6px 6px;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-  }
-}
-a {
-  background-color: black;
-  color: var(--lgn);
-  text-align: center;
-  border-radius: 0;
-}
-a:hover {
-  background-color: var(--gry);
-  color: black;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
 
 .other {

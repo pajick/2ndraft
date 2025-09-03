@@ -13,7 +13,7 @@ h4 {
   margin-bottom: 0.5ch;
   font: 1em sans-serif;
 }
-a {
+/* a {
   text-decoration: none;
-  color: rgb(215, 215, 7);
-}
+  color: var(--wht);
+} */

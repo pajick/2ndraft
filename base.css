@@ -19,6 +19,7 @@
   --wht: rgb(229, 226, 226);
   --card-bg: rgb(240, 229, 197);
   --top-bg: rgb(246, 205, 92);
+  --blk: black;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -156,7 +157,6 @@ table {
 body {
   background-color: white;
   margin: 0;
-  width: 100vw;
   line-height: 1;
 }
 p {
